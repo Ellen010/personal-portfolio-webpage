@@ -1,7 +1,7 @@
 :root {
   --main-white: #f0f0f0;
-  --main-red: #be3144;
-  --main-blue: #45567d;
+  --main-red: #c40f51;
+  --main-blue: #404040;
   --main-gray: #303841;
 }
 
@@ -81,7 +81,7 @@ img {
   left: 0;
   width: 100%;
   background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
   z-index: 10;
 }
 
@@ -107,9 +107,8 @@ img {
 }
 
 .nav-list a:hover {
-  background: var(--main-blue);
+  background: #B0B0B0	;
 }
-
 
 .welcome-section {
   display: flex;
@@ -182,7 +181,7 @@ text-indent: 40px;
 
 .project {
   background: var(--main-gray);
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
   border-radius: 2px;
 }
 
@@ -197,7 +196,7 @@ text-indent: 40px;
 
 }
 .project:hover .code {
-  color: #ff7f50;
+  color: #c40f51;
 }
 
 .project-image {
@@ -281,7 +280,6 @@ text-indent: 40px;
 .contact-details:hover {
   transform: translateY(8px);
 }
-
 
 footer {
   font-weight: 300;
